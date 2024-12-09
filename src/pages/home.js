@@ -17,7 +17,7 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Go to my GitHub repo.
+            Go to my GitHub repo. evet
           </a>
         <br/> 
         <Link to="/albums">
