@@ -1,37 +1,45 @@
-# Project-One
-Proje Detayları
+# MusicVia
 
-*Hedef:* 
-Chinook Database'i kullanarak bir fullstack application geliştirmek.
+## Project Details
 
-*Dataset:*
-Chinook Database, PostgreSQL ile hazır veri seti olarak kullanılmıştır. 
+**Goal:**\
+Develop a fullstack application using the Chinook Database.
 
-Chinook Database: https://github.com/lerocha/chinook-database?tab=readme-ov-file
+**Dataset:**\
+The Chinook Database is used as a pre-built dataset with PostgreSQL.
 
+Repository: [Chinook Database](https://github.com/lerocha/chinook-database?tab=readme-ov-file)
 
-*Backend:* JavaScript.
+**Technologies Used:**
 
-*Frontend:* React.
+- **Backend:** JavaScript
+- **Frontend:** React
+- **Database:** PostgreSQL
 
-*Database:* PostgreSQL.  
+API documentation is available in the repository.
 
+## Application Features
 
-API doköümentasyonu repo'da bulunmakta.
+1. **Filtering Tracks:**
 
-*Uygulama Özellikleri:*
-   - Parçalar tür, uzunluk ve fiyatına göre filtrelenebilmektedir.
-    
-   - Parça Detay Ekranı: Parçayı ve sanatçısını gösterecek şekilde hazırlanmıştır.  
+   - Tracks can be filtered by genre, length, and price.
 
-   - Albüm Detay Ekranı:*Albüm içerisindeki parçaları ve sanatçılarını içeriyor.
-     
-   - Yeni bir albüm eklenebilmektedir.  
+2. **Track Details Screen:**
 
-   - Yeni bir parça eklenebilmektedir.  
+   - Displays detailed information about a track and its artist.
 
-Elimden geleni yaptım takdir sizlere kalmıştır.
-Teşekkürler,
-Baran Turhan
+3. **Album Details Screen:**
 
-denemece
+   - Shows the tracks within an album along with their artists.
+
+4. **Add New Album:**
+
+   - Users can add a new album to the database.
+
+5. **Add New Track:**
+
+   - Users can add a new track to the database.
+
+### Additional Information
+
+Ensure the API is properly configured to integrate the backend with the frontend. Detailed API endpoints and documentation are provided in the repository.
